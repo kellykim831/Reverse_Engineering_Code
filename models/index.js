@@ -1,3 +1,4 @@
+// Indicate that the code should be executed in "strict mode"
 'use strict';
 
 // Import node.js. This allows the user to use the file system 
