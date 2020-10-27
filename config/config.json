@@ -1,3 +1,4 @@
+//update the password inside development section to be able to connect and run your application.
 {
   "development": {
     "username": "root",
