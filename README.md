@@ -1,7 +1,7 @@
 # Reverse_Engineering_Code
 
  ## Description 
- The reverse engineering code assignment was to reverse engineer a starter code and create a turtorial for the code. This is a simple application that allows users to create an account and log into the account securely. All of the users data is stored in a mysql database. Every file must be explained and its purpose must be thoroughly explained as well. If a file is dependent on another file, this must also be stated.  
+ The reverse engineering code assignment was to reverse engineer a starter code and create a tutorial for the code. This is a simple application that allows users to create an account and log into the account securely. All of the users data is stored in a mysql database. Every file must be explained and its purpose must be thoroughly explained as well. If a file is dependent on another file, this must also be stated.  
 
 ## Process
   Dissecting the code is a tedious process, but going through each file to understand how they are connected helped me grasp how this passport demo worked. You will need VS code and the dependencies are Bcryptjs, Express, Express-session, MySql2, passport, passport-local and sequelize. Please see below for my tutorial:
@@ -34,6 +34,10 @@ CREATE DATABASE passport_demo;
 
  Here is a snippet of the login form:
  ![image](loginform.png)
+
+ Once you successfully login your registered email will appear as below, along with a signout button:
+ ![image](signup4.png)
+
 
 ## Files Explained
 
@@ -76,13 +80,13 @@ CREATE DATABASE passport_demo;
 19) The server.js file requires packages, sets up  the PORT, creates express and middleware, creates routes and syncs database, it logs messages in the terminal on successful connection to the server.
 
  ## Installation
- You will need VS code and the dependencies are Bcryptjs, Express, Express-session, MySql2, passport, passport-local and sequelize. 
+ You will need VS code and will need to install the following dependencies: Bcryptjs, Express, Express-session, MySql2, passport, passport-local and sequelize. 
  
  ## Usage 
  The reverse engineering code is to provide a walkthrough of the codebase so that a developer can use it as a starting point for a new project. 
 
 
-### Installing/Technology Used
+### Technology Used
 
 The following platforms are required to open this application:
 
