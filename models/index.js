@@ -5,7 +5,7 @@
 var fs = require('fs');
 // Import node.js path module. This lets the user to to connect with the file & directory path
 var path = require('path');
-// Import sequelize module. This lets the user connect with the server and a database. Which sequelize does through object syntax.
+// Import sequelize module. This lets the user connect with the server and a database & sequelize does this through object syntax.
 var Sequelize = require('sequelize');
 // This module.filename returns the absolute path of the file where it's called. The path.basename shortens it, but equals index.js
 var basename = path.basename(module.filename);
@@ -21,7 +21,7 @@ if (config.use_env_variable) {
   // Then we create a new sequelize using the defined env_variable
   var sequelize = new Sequelize(process.env[config.use_env_variable]);
 } else {
-  // If its not, then crete a new sequelize using the config values listed
+  // If its not, then create a new sequelize using the config values listed
   var sequelize = new Sequelize(config.database, config.username, config.password, config);
 }
 
@@ -36,7 +36,7 @@ fs
   // The .forEach passes each array item into a callback function
   .forEach(function (file) {
     var model = sequelize['import'](path.join(__dirname, file));
-    //  the db object adds a new key pair value. The key is the contructor's name & the value is the class constructor model
+    // The db object adds a new key pair value. The key is the contructor's name & the value is the class constructor model
     db[model.name] = model;
   });
 
