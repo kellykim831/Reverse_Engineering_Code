@@ -35,7 +35,7 @@ CREATE DATABASE passport_demo;
  Here is a snippet of the login form:
  ![image](loginform.png)
 
- Once you've successfully logged in, your registered email will appear as below, along with a signout button:
+ Once you've successfully logged in, your registered email will appear as below, along with a logout button:
  ![image](signup4.png)
 
 
