@@ -10,7 +10,7 @@
  To get started, you will need to do the following to open up the application:
  1) Navigate to the server.js file and then right click and open it in the integrated terminal. 
  2) Install the necessary dependencies by typing in : NPM Install Bcryptjs Express Express-session MySql2 passport passport-local sequelize.
- 3) Go to the config.json file and inside the development section you will need to update the password to reflect your password for MySQL Workbench. You will notice that the database is passport_demo so we will need to add this database into MySql Workbench.
+ 3) Go to the config.json file and inside the development section you will need to update the password to reflect your password for MySql Workbench. You will notice that the database is passport_demo so we will need to add this database into MySql Workbench.
  4) Open your MySql Workbench app and insert the following: 
  -- Drops the passport_demo if it exists currently --
 DROP DATABASE IF EXISTS passport_demo;
